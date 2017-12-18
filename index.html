@@ -1,0 +1,200 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    
+<!--Change viewport-->
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+<!--Bootstrap CDN-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    
+<!--JQuery CDN-->
+        <script
+        src="https://code.jquery.com/jquery-3.2.1.js"
+        integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+        crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    
+<!--CSS stylesheet-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+<!--Link function.js file-->
+    <script src="function.js"></script>
+    
+<!--Scroll back to top button script-->
+<script type="text/javascript">
+$(document).ready(function(){
+    $(window).scroll(function(){
+        if($(this).scrollTop() > 100){
+            $('#scroll').fadeIn();
+        }else{
+            $('#scroll').fadeOut();
+        }
+    });
+    $('#scroll').click(function(){
+        $("html, body").animate({ scrollTop: 0 }, 600);
+        return false;
+    });
+});
+</script>  
+<!--End Script-->
+    
+<!--Script to smooth scroll anchors within page-->
+
+<!--End Script-->
+    
+    <title>Prime Real Estate</title>
+    
+</head>
+    
+    <body>
+        
+        <a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
+        
+        <img src="images/home2(pd).jpg" class="topbanner" alt="Home">
+        
+<!--background for nav bar-->      
+        
+<!--nav bar under image at top of page-->
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <a href="#">
+                    <img src="images/PrimeRealEstate.png" class="logo">
+                    </a>
+                </div>
+                
+    <div class="col-md-6 col-sm-12">
+        <br>
+        <nav class="navbar">
+    
+      <a href="#buy">BUY</a>
+      <a href="#sell">SELL</a>
+      <a href="#rent">RENT</a>
+      <a href="#agents">AGENTS</a>
+      <a href="#Explore">EXPLORE</a>
+      <a href="#about">ABOUT</a>
+    
+        </nav>
+                
+    </div>
+        </div>
+        <br>
+        
+<!--Anchor for home -->
+        <a name="home"></a>
+        
+<!--Top pic in site-->
+        <main>
+            <div class="graybg">
+                    <div class="row">
+                <div class="col-2"></div>
+                <div class="col-8">
+<br><br>
+<p>Prime Real Estate is the fastest-growing boutique real estate agency in the San Francisco Bay Area with a focus on condominiums, lofts, townhomes, flats, and single-family homes. We elevate the home buying and selling experience for our clients with our innovative strategies.
+<br><br>
+We believe it’s more than a home. It’s your life.
+<br><br>
+    <a href="#about">Our Story</a>
+    
+<br><br></p>
+                    
+        </div>
+                        
+     <div class="col-2"></div>
+            
+<!--Anchor for testimonials-->
+<a name="testimonials"></a> 
+            
+    <!--Anchor to get to contact info-->
+        <a name="contact"></a> 
+<br><br>
+</div>
+            </div>
+            <!--End of GrayBG-->
+            
+            <!--Start of Featured listings section-->
+            <br>
+            <h1>FEATURED LISTINGS</h1>
+            
+            <br>
+            
+                            <div class="row">
+                    <div class="col-md-4 col-sm-12">
+                <a href="#">
+                <img class="house" src="images/house1.jpg" alt="prime real estate agent">
+                    </a>
+                        <p><b>2324 ELM ST.</b>
+                        <br>$1,336,500.00</p>
+                    
+            </div>
+                    
+                    <div class="col-md-4 col-sm-12">
+                        <a href="#">
+                <img class="house" src="images/house2.jpg" alt="prime real estate agent">
+                            </a>
+                        <p><b>7687 WIGGINS ST.</b>
+                        <br>$962,000</p>
+                    </div>
+                    
+                    <div class="col-md-4 col-sm-12">
+                        <a href="#">
+                            <img class="house" src="images/house3.jpg" alt="prime real estate agent">
+                            </a>
+                        <p><b>9870 MAPLE ST.</b>
+                        <br>$1,360,000</p>
+                    </div>
+                </div>
+            
+            <br>
+            
+            <div class="graybg">
+                <br>
+            <h1>FEATURED AGENTS</h1>
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                <img class="agent" src="images/agent1.jpg" alt="prime real estate agent">
+                        <p><b>TONY MONTANA</b>
+                        <br>Sales Associate</p>
+            </div>
+                    
+                    <div class="col-md-4 col-sm-6">
+                <img class="agent" src="images/agent2.jpg" alt="prime real estate agent">
+                        <p><b>JOHN SNOW</b>
+                        <br>District Manager</p>
+                    </div>
+                    
+                    <div class="col-md-4 col-sm-6">
+                <img class="agent" src="images/agent3.jpg" alt="prime real estate agent">
+                        <p><b>RICKY BOBBY</b>
+                        <br>Sales Associate</p>
+                    </div>
+                </div>
+            </div>
+            
+            </main>
+        
+            <div class="blackbg">
+                <br>
+                <footer><p class="footer">© 2017 Prime Real Estate. All Rights Reserved.
+                    
+                    <br><br>
+
+ Prime Real Estate supports the principles of the Fair Housing Act and the Equal Opportunity Act. For information on fair housing and free housing counseling, please visit <a href="https://www.hud.gov/">www.hud.gov</a><br><br>
+
+All information deemed reliable but not guaranteed. Listings are subject to errors, omissions, changes in price, prior sale, rental, and withdrawal without notice.<br><br>
+
+All data and information set forth on this website regarding real property, for sale, purchase, rental and/or financing, are from sources regarded as reliable. No warranties are made as to the accuracy of any descriptions and/or other details and such information is subject to errors, omissions, changes of price, tenancies, commissions, prior sales, leases or financing, or withdrawal without notice. Square footages are approximate and may be verified by consulting a professional architect or engineer.
+                    <br><br>
+                    Website by <u>Khalil Taylor</u></p></footer>
+                <br>
+            </div>
+        
+        
+    </body>
+
+</html>
