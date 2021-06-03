@@ -13,12 +13,7 @@
     background-color: #ecf0f1; 
     }
 .logo{
-        height: 65%;
-        width: 70%;
-        padding-left: 10px;
-        display: inline-block;
-        vertical-align: middle;
-        align-content: center;
+        display:none;
     }
 .navbar{
     width: auto;
