@@ -237,16 +237,6 @@ a:hover{
         padding: 10px 30px 10px 30px; 
         align-content: center;
     }
-/*.house:hover {
-    position:relative;
-    top:-25px;
-    left:-35px;
-    height: 400px;
-    width:450px;
-    height:auto;
-    display:block;
-    z-index:999;
-}*/
 .agent{
         border-radius: 10%;
         height: 300px;
