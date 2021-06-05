@@ -65,7 +65,7 @@ a:hover{
 .agent{
         border-radius: 20%;
         height: 70%;
-        width: 90%;
+        width: 100%;
         padding: 10px 30px 10px 30px; 
         align-content: center;
     }
@@ -240,7 +240,7 @@ a:hover{
 .agent{
         border-radius: 20%;
         height: 300px;
-        width: 350px;
+        width: 100%;
         padding: 10px 30px 10px 30px; 
         align-content: center;
     }
