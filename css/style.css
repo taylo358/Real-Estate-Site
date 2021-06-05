@@ -143,7 +143,7 @@ a:hover{
         font-family: times;
     }
 .house{
-        border-radius: 10%;
+        border-radius: 20%;
         height: 70%;
         width: 100%;
         padding: 10px 30px 10px 30px; 
@@ -231,7 +231,7 @@ a:hover{
         font-family: times;
     }
 .house{
-        border-radius: 10%;
+        border-radius: 20%;
         height: 300px;
         width: 350px;
         padding: 10px 30px 10px 30px; 
